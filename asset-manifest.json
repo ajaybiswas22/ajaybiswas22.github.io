@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6556eb8a.css",
+    "main.css": "/static/css/main.5d64dfac.css",
     "main.js": "/static/js/main.22846715.js",
     "static/js/845.facd3a44.chunk.js": "/static/js/845.facd3a44.chunk.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/interstellar.mp3": "/static/media/interstellar.0a06ba6635a860d2bcc3.mp3",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.6556eb8a.css.map": "/static/css/main.6556eb8a.css.map",
+    "main.5d64dfac.css.map": "/static/css/main.5d64dfac.css.map",
     "main.22846715.js.map": "/static/js/main.22846715.js.map",
     "845.facd3a44.chunk.js.map": "/static/js/845.facd3a44.chunk.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6556eb8a.css",
+    "static/css/main.5d64dfac.css",
     "static/js/main.22846715.js"
   ]
 }
