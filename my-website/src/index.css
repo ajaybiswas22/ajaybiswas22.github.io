@@ -7,7 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "LibreBaskervilleBold";
+  src: local("LibreBaskervilleBold"),
+   url("./fonts/LibreBaskerville-Bold.ttf") format("truetype");
+  font-weight: bold;
 }
+
+@font-face {
+  font-family: "LibreBaskervilleRegular";
+  src: local("LibreBaskervilleRegular"),
+   url("./fonts/LibreBaskerville-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "LibreBaskervilleItalic";
+  src: local("LibreBaskervilleItalic"),
+   url("./fonts/LibreBaskerville-Italic.ttf") format("truetype");
+  font-weight: normal;
+}
+ 
+ 

@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import useSound from 'use-sound';
-import mySound from './interstellar.mp3'
-
 import './App.css';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { NavbarElement } from './Navbar';
+import { Timeline } from './Timeline';
+import { Home } from './Home';
+import { Gallery } from './Gallery';
 
 function App() {
-
-  const [playSound] = useSound(mySound, { volume: 0.7 }) // 70% of the original volume
-
-  return (
-    <div className="App">
-      <ul className="Navbar">
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">You</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-      </ul>
-    </div>
-  );
+    return (
+        <Router>
+            <NavbarElement /> 
+            <Routes>
+                <Route path='/' element={<Home /> } />
+                <Route path='/Timeline' element={<Timeline /> } />
+                <Route path='/Gallery' element={<Gallery /> } />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;

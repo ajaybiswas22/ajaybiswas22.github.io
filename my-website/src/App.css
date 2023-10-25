@@ -1,3 +1,33 @@
+/* color scheme: Gorgeous Contrast
+
+#61892F : Other Text
+#86C232 : Text Bold
+#222629 : background
+#474B4F : Text greyed
+#6B6E70 : Others
+*/
+
+h2 {
+  color: #86C232;
+}
+
+.font-bold {
+  font-family: "LibreBaskervilleBold";
+}
+
+.font-regular {
+  font-family: "LibreBaskervilleRegular";
+}
+
+.font-italic {
+  font-family: "LibreBaskervilleItalic";
+}
+
+body, html {
+  height: 100%;
+  background-color: #222629;
+}
+
 .App {
   text-align: center;
 }
@@ -6,12 +36,6 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 1s linear;
-  }
-} */
 
 .App-header {
   background-color: #e8e8e7;
@@ -33,34 +57,96 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #2124ff;
+  background-color: #050505;
+  font-size: calc(8px + 2vmin);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .Navbar li {
   float: left;
+  
 }
 
 .Navbar li a {
   display: block;
-  color: white;
+  color: #ffffff;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
+  font-size: 40px;
+}
+
+.Navbar li a.Navbar-items {
+  padding-top: 35px;
+  font-size: 20px;
+  color: #86C232;
 }
 
 .Navbar li a:hover {
-  background-color: #753aff;
+  color: #ffffff;
 }
 
 .Navbar .active {
-  background-color: #04AA6D;
+  background-color: #61892F;
 }
 
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+.Navbar li a.social {
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.Navbar li a.social:hover {
+  transform: translateY(-2px);
+}
+
+.Navbar li a.youtube {
+  color: #eb3223;
+}
+
+.Navbar li a.github {
+  color: white;
+}
+
+.Navbar li a.linkedin {
+  color: #0072b1;
+}
+
+.Navbar li a.instagram {
+  color: #E4405F;
+}
+
+
+.Brand {
+  color: Black;
+}
+
+.bg {
+  background-image: url("images/DSC_0058.jpg");
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flex-bio {
+  display: flex;
+  width: 100%;
+  color: #e4e4e4;
+  font-size: 20px;
+  text-align: left;
+}
+
+.flex-bio-child {
+  flex: 1;
+  margin: 20px;
+  padding-top: 20px;
+}
+
+.flex-bio-child:first-child {
+  padding-top: 100px;
+  margin-right: 20px;
+}
