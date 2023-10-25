@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9006938b.css",
-    "main.js": "/static/js/main.ed640e6f.js",
+    "main.css": "/static/css/main.5e4c182d.css",
+    "main.js": "/static/js/main.b40635b6.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
-    "static/media/DJI_0812.jpg": "/static/media/DJI_0812.3929ac024e0fba018b06.jpg",
+    "static/media/DSC_0058.jpg": "/static/media/DSC_0058.5971d04e15d0e237c195.jpg",
     "static/media/LibreBaskerville-Italic.ttf": "/static/media/LibreBaskerville-Italic.3cbbed9ea170d3b9e426.ttf",
     "static/media/LibreBaskerville-Bold.ttf": "/static/media/LibreBaskerville-Bold.6e5f70731aeed7c6e895.ttf",
     "static/media/LibreBaskerville-Regular.ttf": "/static/media/LibreBaskerville-Regular.715e9cea90f54d5a4093.ttf",
     "index.html": "/index.html",
-    "main.9006938b.css.map": "/static/css/main.9006938b.css.map",
-    "main.ed640e6f.js.map": "/static/js/main.ed640e6f.js.map",
+    "main.5e4c182d.css.map": "/static/css/main.5e4c182d.css.map",
+    "main.b40635b6.js.map": "/static/js/main.b40635b6.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9006938b.css",
-    "static/js/main.ed640e6f.js"
+    "static/css/main.5e4c182d.css",
+    "static/js/main.b40635b6.js"
   ]
 }
